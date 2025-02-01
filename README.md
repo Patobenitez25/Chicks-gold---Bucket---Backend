@@ -14,19 +14,17 @@ Este es el backend de la aplicación **Water Jug Solver**, que recibe las capaci
 
 1. Clonar el repositorio:
 
-   git clone <URL_DEL_REPO_BACKEND>
-   cd backend
+
+
+         git clone https://github.com/Patobenitez25/Chicks-gold---Bucket---Backend.git
+         cd backend
 
 2. Instalar dependencias:
 
-    Copiar
-    Editar
-    npm install
+       npm install
 3. Iniciar el servidor:
    
-    Copiar
-    Editar
-    npm run dev
+          npm run dev
     El backend correrá en http://localhost:3001.
 
 🔗 API Endpoints
