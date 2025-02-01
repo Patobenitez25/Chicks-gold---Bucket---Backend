@@ -7,6 +7,8 @@ Este es el backend de la aplicación **Water Jug Solver**, que recibe las capaci
 - Expone una API REST con un endpoint `/solve`.
 - Recibe los valores de las jarras y el objetivo como JSON y devuelve los pasos necesarios para medir exactamente la cantidad de agua solicitada.
 - Manejo de errores en caso de que la solución no sea posible.
+- Uso de algoritmo matematico BFS (breadth-first search) para encontrar el camino mas corto hacia la solucion
+- Se valida que la solucion exista solo si Z es multiplo del MCD(x,y)
 
 ## 📦 Instalación
 
