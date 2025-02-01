@@ -48,6 +48,7 @@ app.post("/solve", (req, res) => {
     if (!X || !Y || !Z) return res.status(400).json({ error: "All values are required" });
     try {
         const solution = waterJugSolver(X, Y, Z);
+        console.log(solution);
         res.json({ solution });
         
     } catch (error) {
